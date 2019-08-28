@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/fun_with_flags" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/ic_flag_of_fiji" />
+
+            <TextView
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/Q1"
+                android:focusableInTouchMode="true"
+                android:text="@string/Q1" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q1_Group"
+            >
+
+            <RadioButton
+                android:id="@+id/Q1_radio_Fiji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fiji" />
+
+            <RadioButton
+                android:id="@+id/Q1_radio_Niger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/niger" />
+
+            <RadioButton
+                android:id="@+id/Q1_radio_Chad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chad" />
+
+            <RadioButton
+                android:id="@+id/Q1_radio_solmon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/solmon_island" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/ic_georgia" />
+
+            <TextView
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/Q2_TextView"
+                android:focusableInTouchMode="true"
+                android:text="@string/Q2" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/Q2_Answer_Edit"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/write_the_name_here" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/ic_uk" />
+
+            <TextView
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/Q3"
+                android:focusableInTouchMode="true"
+                android:text="@string/Q3" />
+
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/Q3_Check_England"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/england" />
+
+        <CheckBox
+            android:id="@+id/Q3_Check_Virgin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/british_virgin_islands" />
+
+        <CheckBox
+            android:id="@+id/Q3_Check_Northen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/northern_ireland" />
+
+        <CheckBox
+            android:id="@+id/Q3_Check_Wales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wales" />
+
+        <CheckBox
+            android:id="@+id/Q3_Check_Australia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/australia" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/ic_mongolia" />
+
+            <TextView
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/Q4"
+                android:focusableInTouchMode="true"
+                android:text="@string/Q4" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q4_Group"
+            >
+
+            <RadioButton
+                android:id="@+id/Q4_Radio_Europe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/europe" />
+
+            <RadioButton
+                android:id="@+id/Q4_Radio_Asia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/asia" />
+
+            <RadioButton
+                android:id="@+id/Q4_Radio_Africa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/africa" />
+
+            <RadioButton
+                android:id="@+id/Q4_Radio_SouthAmerica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/south_america" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/images"
+                android:src="@drawable/ic_south_africa" />
+
+            <TextView
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/Q5"
+                android:focusableInTouchMode="true"
+                android:text="@string/Q5" />
+        </LinearLayout>
+
+        <EditText
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_the_year"
+            android:id="@+id/Q5_Answer_Edit"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:onClick="submit"
+            android:text="@string/submit"
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>

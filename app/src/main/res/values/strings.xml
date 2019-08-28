@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="pleaseWrite">Please write an answer</string>
+    <string name="pleaseCheckatLeast">Please check at least one answer</string>
+    <string name="PleaseCheck">Please check an answer</string>
+    <string name="yourScore">You have a Score of</string>
+    <string name="fun_with_flags">Fun with Flags</string>
+    <string name="Q1">This flag belogns to which county ?</string>
+    <string name="fiji">Fiji</string>
+    <string name="niger">Niger</string>
+    <string name="chad">Chad</string>
+    <string name="solmon_island">solmon island</string>
+    <string name="Q2">Can you spell the name of this country</string>
+    <string name="write_the_name_here">write the name here.</string>
+    <string name="Q3">Mark all that are part of the United Kingdom</string>
+    <string name="england">England</string>
+    <string name="british_virgin_islands">British Virgin Islands</string>
+    <string name="northern_ireland">Northern Ireland</string>
+    <string name="wales">Wales</string>
+    <string name="australia">Australia</string>
+    <string name="Q4">In which content Mongolia exists?</string>
+    <string name="europe">Europe</string>
+    <string name="asia">Asia</string>
+    <string name="africa">Africa</string>
+    <string name="south_america">South America</string>
+    <string name="Q5">Which world cup was hosted in South Africa?</string>
+    <string name="enter_the_year">Enter the year</string>
+    <string name="submit">Submit</string>
+</resources>
